@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <h1></h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Menu</title>
+  <link rel="stylesheet" href="E COMMERCE.css">
+</head>
+<body>
+  <div class="product">
+    <img src="burger.jpg" width="70" height="70"  alt="Product Image">
+    <h2>SanDisk 4TB Extreme Portable SSD</h2>
+    <p><strong>Price:</strong> AED 795.87 <span class="discount">(17% off)</span></p>
+    <button onclick="sendToWhatsApp()">Inquire on WhatsApp</button>
+  </div>
+  <div class="menu-container">
+    <div class="menu-icon" onclick="toggleMenu()"> <!-- Icon Button -->
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="dropdown-menu" id="dropdownMenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <script src="E COMMERCE.js"></script>
+</body>
+</html>
